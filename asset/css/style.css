@@ -6,4 +6,32 @@ html{
 }
 body{
     font-size: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+}
+/* ===========chung============ */
+a{
+    text-decoration: none;
+}
+.main{
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* ===========header=========== */
+header .main{
+    /* width: 1440px; */
+}
+.header .body{
+    display: flex;
+}
+.header .body .brand{
+    background: #000;
+    border-radius: 50%;
+}
+.header .body .nav{
+    margin-left: auto;
+}
+.header .body .nav ul{
+    display: flex;
+    gap: 38px;
 }
