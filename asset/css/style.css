@@ -1,37 +1,69 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
-html{
-    font-size: 62.5%;
+html {
+  font-size: 62.5%;
 }
-body{
-    font-size: 1.6rem;
-    font-family: 'Poppins', sans-serif;
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
 }
 /* ===========chung============ */
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-.main{
-    width: 1170px;
-    margin-left: auto;
-    margin-right: auto;
+.main {
+  width: 1170px;
+  max-width: calc(100% - 150);
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn {
+  color: #494949;
+  font-size: 1.6rem;
+  padding: 12px 24px;
 }
 /* ===========header=========== */
-header .main{
-    /* width: 1440px; */
+.header{
+  background: #fff;
 }
-.header .body{
-    display: flex;
+.header.fixed{
+  z-index: 1;
+  position: sticky;
+  top: -44px;
 }
-.header .body .brand{
-    background: #000;
-    border-radius: 50%;
+.header .body {
+  display:flex;
+  align-items: center;
+  padding: 52px 0px 8px;
 }
-.header .body .nav{
-    margin-left: auto;
+.header .brand {
+  background: #000;
+  border-radius: 50%;
 }
-.header .body .nav ul{
-    display: flex;
-    gap: 38px;
+.header .nav {
+  margin-left: auto;
+  margin-right: 165px;
+}
+.header .body .nav ul {
+  display: flex;
+  gap: 39px;
+}
+.header .body a {
+  color: #2f3a3b;
+ 
+}
+.header .body .nav a:hover {
+  text-shadow: 1px 0 0 #000;
+}
+.header .sign .btn-sign {
+  color: #1ebfc1;
+  font-weight: 600;
+  border-radius: 6px;
+  border: 1px solid #1ebfc1;
+}
+.header .sign .btn-sign:hover{
+  color: #fff;
+  background: #1ebfc1;
+  transition: 0.3s;
 }
