@@ -71,6 +71,9 @@ a {
   display: flex;
   margin-top: 62px;
 }
+.hero .hero-l {
+  width: 50%;
+}
 .hero .small {
   color: #767e7e;
   font-size: 1.4rem;
@@ -104,6 +107,9 @@ a {
   box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
 }
 .hero button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 62px;
   height: 62px;
   border-radius: 50%;
@@ -111,8 +117,112 @@ a {
   background: #fff;
   box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
 }
+.hero button:hover {
+  background: #eee;
+  box-shadow: 0px 0px 0px 0px rgba(196, 26, 134, 0.5);
+  color: #fff;
+  transition: 0.5s;
+  cursor: pointer;
+}
 .hero .hero-pic {
+  position: relative;
+  width: 50%;
+  background: #e0f7f6;
+}
+.hero .hero-pic img: {
   width: 576px;
   height: 631px;
-  background: #E0F7F6;
+  object-fit: cover;
+}
+.hero .hero-pic .cousre {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: -40px;
+  bottom: 420px;
+  font-size: 1rem;
+  font-weight: 500;
+  gap: 16px;
+  width: 157px;
+  height: 75px;
+  border-radius: 18px;
+  background: #fefefd;
+  box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
+}
+.hero .hero-pic .cousre::after {
+  position: absolute;
+  top: 45px;
+  left: 4px;
+  content: "";
+  display: inline-block;
+  width: 28px;
+  height: 4px;
+  background: #fff;
+  border-radius: 999px;
+}
+.hero .schedule {
+  position: absolute;
+  bottom: 46px;
+  left: -65px;
+  width: 125px;
+  height: 132px;
+  border-radius: 24px;
+  background: #fff;
+  box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
+}
+.hero .schedule span {
+  display: inline-block;
+  margin: 16px 35px;
+  color: #0d1111;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.hero .schedule .sicon {
+  display: block;
+  margin: 0 auto;
+}
+.hero .schedule .icon1 {
+  margin-bottom: 12px;
+}
+.hero .schedule .icon2 {
+  margin-bottom: 10px;
+}
+.hero .schedule .icon3 {
+  margin-bottom: 16px;
+}
+.hero .student {
+  position: absolute;
+  bottom: 40px;
+  right: 45px;
+  border-radius: 24px;
+  background: #fefefd;
+  box-shadow: 0px 12px 80px 0px rgba(0, 0, 0, 0.05);
+  width: 207px;
+  height: 90px;
+}
+.hero .student p {
+  margin: 17px 72px 8px 35px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.hero .avt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero .avtb {
+  margin-left: -7px;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  border: #1ebfc1;
+}
+.hero .student span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1ebfc1;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
 }
