@@ -354,8 +354,8 @@ a {
   border-radius: 999px;
 }
 /* =============more============== */
-.more .info{
-  margin-top: 265px ;
+.more .info {
+  margin-top: 265px;
   margin-left: 156px;
   display: flex;
   width: 862px;
@@ -377,4 +377,61 @@ a {
   color: #767e7e;
   text-align: center;
   font-size: 1.8rem;
+}
+/* ===========noted=========== */
+.noted {
+  margin-top: 264px;
+}
+.note .left {
+  max-width: 37%;
+}
+.note .said {
+  color: #5d6564;
+  font-size: 3.2rem;
+  line-height: 150%;
+  margin: 27px 0 33px;
+}
+.note .tel {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 52px;
+}
+.note .who {
+  color: #767e7e;
+  font-size: 1.6rem;
+}
+.note .who span {
+  color: #070707;
+  font-weight: 500;
+}
+.note .ret::after {
+  position: relative;
+  bottom: 5px;
+  content: " ";
+  display: inline-block;
+  width: 8px;
+  height: 2px;
+  background: #070707;
+  border-radius: 999px;
+}
+.note .choice{
+  display: flex;
+  gap: 30px;
+}
+.note .switch {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background: #2ac9bf;
+  border-radius: 50%;
+}
+.note .switch:hover {
+  background: #106162;
+  box-shadow: 0px 0px 0px 0px rgba(196, 26, 134, 0.5);
+  color: #fff;
+  transition: 0.5s;
+  cursor: pointer;
 }
