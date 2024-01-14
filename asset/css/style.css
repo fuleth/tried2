@@ -339,10 +339,10 @@ a {
   margin: 18px;
   gap: 20px;
 }
-.popular .bot .course .more p{
+.popular .bot .course .more p {
   position: relative;
 }
-.popular .bot .course .dot::before{
+.popular .bot .course .dot::before {
   position: relative;
   top: 15px;
   left: -10px;
@@ -352,4 +352,29 @@ a {
   height: 6px;
   background: #1ebfc1;
   border-radius: 999px;
+}
+/* =============more============== */
+.more .info{
+  margin-top: 265px ;
+  margin-left: 156px;
+  display: flex;
+  width: 862px;
+  height: 131px;
+  justify-content: space-between;
+  align-items: center;
+}
+.more .group {
+  gap: 11px;
+}
+.more .num {
+  color: #0d1111;
+  text-align: center;
+  font-size: 6.2rem;
+  font-weight: 700;
+  line-height: normal;
+}
+.more .desc {
+  color: #767e7e;
+  text-align: center;
+  font-size: 1.8rem;
 }
