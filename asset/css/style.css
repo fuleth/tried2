@@ -239,7 +239,7 @@ a {
   font-weight: 500;
 }
 /* =======feature======== */
-.feature{
+.feature {
   margin-top: 150px;
 }
 .feature .idea {
@@ -271,4 +271,85 @@ a {
   font-size: 1.6rem;
   line-height: 168.8%;
   white-space: pre;
+}
+/* ========popular======= */
+.popular {
+  margin-top: 130px;
+}
+.popular .top p {
+  color: #767e7e;
+  font-size: 1.8rem;
+  line-height: 177.8%;
+}
+.popular .top .view {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.popular .top .view .left {
+  color: #1ebfc1;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-decoration-line: underline;
+}
+.popular .bot {
+  margin-top: 80px;
+  display: flex;
+  gap: 47px;
+}
+.popular .bot .pic {
+  border-radius: 8px;
+  width: 359px;
+  height: 393px;
+  opacity: 0.35;
+}
+.popular .bot .course {
+  width: 325px;
+  height: 195px;
+  padding: 18px 25px;
+  position: relative;
+  left: 17px;
+  bottom: 70px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 16px 90px 0px rgba(0, 0, 0, 0.05);
+}
+.popular .bot .name {
+  color: #0d1111;
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+.popular .bot .course .change {
+  color: #767e7e;
+  font-size: 1.6rem;
+  margin-bottom: 6px;
+  line-height: normal;
+}
+.popular .bot .course p {
+  color: #9da6a5;
+  font-size: 1.4rem;
+  line-height: normal;
+  font-weight: 400;
+}
+.popular .bot .course .more {
+  display: flex;
+  align-items: center;
+  margin: 18px;
+  gap: 20px;
+}
+.popular .bot .course .more p{
+  position: relative;
+}
+.popular .bot .course .dot::before{
+  position: relative;
+  top: 15px;
+  left: -10px;
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  background: #1ebfc1;
+  border-radius: 999px;
 }
