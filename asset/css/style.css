@@ -382,8 +382,14 @@ a {
 .noted {
   margin-top: 264px;
 }
+.note {
+  display: flex;
+}
 .note .left {
   max-width: 37%;
+}
+.note .open{
+  margin-top: 37px;
 }
 .note .said {
   color: #5d6564;
@@ -414,7 +420,7 @@ a {
   background: #070707;
   border-radius: 999px;
 }
-.note .choice{
+.note .choice {
   display: flex;
   gap: 30px;
 }
@@ -434,4 +440,67 @@ a {
   color: #fff;
   transition: 0.5s;
   cursor: pointer;
+}
+.note .switch img {
+  width: 6px;
+  height: 12px;
+  object-fit: cover;
+}
+.note .right{
+  max-width: 73%;
+  position: relative;
+}
+.note .right .lv1 {
+  width: 235px;
+  height: 235px;
+  background-color: #FF8282;
+  border-radius: 50%;
+  position: absolute;
+  top: 107px;
+  left: 273px;
+}
+.note .right .lv2 {
+  width: 110px;
+  height: 110px;
+  background-color: #BF83FF;
+  border-radius: 50%;
+  position: absolute;
+  top: 19px;
+  left: 569px;
+  
+}
+.note .right .lv3 {
+  width: 92px;
+  height: 92px;
+  background-color: #1ebfc1;
+  border-radius: 50%;
+  position: absolute;
+  left: 144px;
+  
+}
+.note .right .lv4 {
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+  position: relative;
+}
+.note .right .bl{
+  background-color: #B1DFDC;
+  position: absolute;
+  top: 347px;
+  left: 569px;
+  
+}
+.note .right .r{
+  background-color:#FF947A;
+  position: relative;
+  top: 403px;
+  left: 212px;
+  
+}
+.note .right .yel{
+  background-color: #FFC147;
+  position: relative;
+  top: 258px;
+  
 }
